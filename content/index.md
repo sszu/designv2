@@ -1,25 +1,29 @@
 ---
-title: "Min fina titel"
+title: "Me-sida "
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/me.jpg?w=300" class="right" caption="Så ser jag ut :P"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Detta är min me-sida i kursen design. Sidan innehåller en kort presentation av mig själv samt min utveckling inom kursen design.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag heter Sandra Szu och är en bland många andra studenter som läser Webbprogrammering. Just nu ligger focuset på Tekniskt Design och JavaScript.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+För drygt 20 år sen (ish? tappat räkning...) flyttade jag från Taiwan till Sverige och bott i Norrort i Stockholm till största delen och pendlade timmarna varje dag till/från jobb.
+Detta fram tills, ja, nu! Flyttade nu i början av November till Uppsala och har nu cykelavstånd till jobbet (hej då signalfel på tåget).
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Kan tycka att det har varit väldigt segstartat för mig att vända mig åt programmeringsvärld men bättre sen än aldrig.
+Har tidigare provat olika arbetsroller som receptionist, butiksbiträde inom IT-bransch och servicebranschen.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Jobbar idag inom resebranschen men jag är nyfiken och vill fortsätta hitta andra stimulans "for the mind".
+Denna gången åt något som alltid intreserat mig vid sidan om men som jag inte provat riktigt på - programmering.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+[FIGURE src="image/prahaoldtown.jpg?w=500" class="center" caption="Gamla stan, julmarknad, shopping & relax :)"]
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Eftersom kursen börjar nu vid November så kan jag inte låta bli att nämna... PRAG!
 
-Vi syns och hörs i forum och chatt!
+Älskar man julmarknader, stadspromenader, gotiska byggnader (och många andra sevärdheter) och en liten get away från vardag så är just Prag ett bra weekend-resmål inför Jul!
 
-/Mikael
+
+/Sandra
