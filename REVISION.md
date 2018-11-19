@@ -15,3 +15,9 @@ v1.0.1 (2018-11-19 16:29)
 * Updated index and about (om) content text and images
 * Updated flash image
 * Added byline
+
+
+v1.0.2.(2018-11-19 17:32)
+----------------------
+
+* Added Lekstuga incl. link in navbar
