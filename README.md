@@ -1,4 +1,4 @@
-Min me/redovisa
-======================
+My me/redovisa repository
+==========================
 
-Här skriver jag något trevligt om repot och kanske om mig.
+This repository is created for the course [Design v2](https://dbwebb.se/kurser/design-v2).

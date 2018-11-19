@@ -17,7 +17,15 @@ v1.0.1 (2018-11-19 16:29)
 * Added byline
 
 
-v1.0.2.(2018-11-19 17:32)
+v1.0.2 (2018-11-19 17:32)
 ----------------------
 
 * Added Lekstuga incl. link in navbar
+
+
+v1.0.3 (2018-11-19 23:24)
+----------------------
+
+* Added style Kmom01.css
+* Added text content for Redovisning kmom01
+* All files published to the student server
