@@ -29,3 +29,19 @@ v1.0.3 (2018-11-19 23:24)
 * Added style Kmom01.css
 * Added text content for Redovisning kmom01
 * All files published to the student server
+
+
+v2.0.0 (2018-11-27 19:40)
+----------------------
+
+* Launched first LESS basic theme me/redovisa/theme/src/ with make theme
+* Including responsive header/navbar and main
+* Including 3 column style
+* Added ../kmom01_v2.less
+* Added ../kmom02.less
+* Added ../base/base.less
+* Added ../layout/layout.less
+* Added ../layout/layout_kmom02.less
+* Added ../layout/responsive.less
+* Normalized/reset the style with normalize.css
+* Added FontAwesome

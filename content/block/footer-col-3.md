@@ -1,3 +1,6 @@
-#### Footer col 3
+#### Kursrepo
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Design är förkortning till Teknisk webbdesign och användbarhet och ämnar till lärande för att tekniskt förbereda webbplatser för design och användbarhet.
+
+* [Kursens hemsida på dbwebb.se](https://dbwebb.se/kurser/design-v2)
+* [Kursens kursrepot på GitHub](https://github.com/dbwebb-se/design).

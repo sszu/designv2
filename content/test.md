@@ -1,12 +1,20 @@
 ---
 views:
-    kursrepo:
+    markdown:
         region: sidebar-left
         template: anax/v2/block/default
         data:
             meta:
                 type: single
                 route: block/markdown
+
+    kursrepo:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-kursrepo
 ---
 Testsida - Markdown
 ======================

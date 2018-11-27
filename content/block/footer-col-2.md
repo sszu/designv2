@@ -1,3 +1,5 @@
-#### Footer col 2
+#### Min me/redovisa repot
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Se mina uppdateringar för min me/redovisa.
+
+* [Mitt repot på GitHub](https://github.com/sszu/designv2).

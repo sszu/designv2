@@ -1,3 +1,7 @@
-#### Footer col 1
+#### Markdown basics
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Referencematerial för Markdown
+
+* [Daring Fireball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
+* [PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/).
+* [PHP Markdown Concepts](https://michelf.ca/projects/php-markdown/concepts/).

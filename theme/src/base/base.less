@@ -1,0 +1,70 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+h1 {
+  font-size: 2em;
+  border-bottom: thin solid rgba(0, 0, 0, .8);
+}
+
+p {
+    padding: 2px 3px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:link {
+    color: #808f85;
+    font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+    color: #808f85;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #808f85;
+}
+
+ul {
+    list-style-type: none;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
