@@ -45,3 +45,10 @@ v2.0.0 (2018-11-27 19:40)
 * Added ../layout/responsive.less
 * Normalized/reset the style with normalize.css
 * Added FontAwesome
+
+
+v2.0.1
+----------------------
+* Added base/base_kmom01.less
+* Added layout_kmom01.less
+* Updated kmom01_v2.less

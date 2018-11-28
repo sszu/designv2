@@ -80,61 +80,61 @@ figcaption {
 }
 
 .right {
-  float: right;
+    float: right;
 }
 
 .left {
-  float: left;
+    float: left;
 }
 
 /* ------- Region: Head ------- */
 .region-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .region-header a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .site-logo {
-  display: none;
+    display: none;
 }
 
 .site-logo-text a {
-  display: flex;
-  align-items: center;
-  font-size: 2em;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
 }
 
 .my-navbar {
-  display: flex;
-  padding: 0;
-  list-style: none;
-  margin: 0;
-  font-size: 1em;
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    font-size: 1em;
 }
 
 .my-navbar > li {
-  margin: 5px;
-  padding: 5px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .region-header-col-3 {
-  display: none;
+    display: none;
 }
 
 .region-flash img {
-  width: 100%;
+    width: 100%;
 }
 
 /* ------- Region: Content ------- */
 .inner-wrap-main .row {
-  display: flex;
-  max-width: 1900px;
-  margin: 0 auto;
+    display: flex;
+    max-width: 1900px;
+    margin: 0 auto;
 }
 
 .wrap-sidebar {
