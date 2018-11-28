@@ -1,12 +1,10 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@import url('https://fonts.googleapis.com/css?family=Dosis');
-
 @bgColorHtml: #424242;
 @bgColorBody: #fff;
 @colorBody: #333;
-@fontFamilyBody: serif;
+@fontFamilyBody: sans-serif;
 
 html {
     overflow-y: scroll;
@@ -18,11 +16,7 @@ body {
     padding: 0;
     color: @colorBody;
     background-color: @bgColorBody;
-    font: 100.01%/1 "Dosis", sans-serif, @fontFamilyBody;
-}
-
-main {
-    min-height: 300px; //Kmom02 temp solution for fixing min height
+    font: 100.01%/1 "Lucida Sans Unicode", "Lucida Grande", @fontFamilyBody;
 }
 
 h1 {
@@ -42,13 +36,13 @@ img {
 }
 
 a:link {
-    color: #808f85;
+    color: white;
     font-weight: bold;
 }
 
 /* visited link */
 a:visited {
-    color: #808f85;
+    color: white;
 }
 
 /* mouse over link */
@@ -59,12 +53,13 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #808f85;
+    color: white;
 }
 
 ul {
     list-style-type: none;
     padding-left: 0;
+    font-size: 80%;
 }
 
 figure {

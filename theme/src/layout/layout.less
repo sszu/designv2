@@ -12,14 +12,14 @@
  * General layout
  */
 .inner-wrap {
-    max-width: 800px;
+    box-sizing: border-box;
+    max-width: 900px;
     margin: 0 auto;
-    background-color: lightblue;
     overflow: auto;
 }
 
 .site-logo {
-  display: none;
+    display: none;
 }
 
 /**
@@ -28,12 +28,12 @@
 .inner-wrap-main {
     //.clearfix();
     overflow: auto;
+    margin-top: 1em;
 }
 
 .region-main,
 .region-sidebar-left,
 .region-sidebar-right {
-    //background-color: green;
     overflow: auto;
 }
 
@@ -63,12 +63,14 @@
     width: 20%;
 }
 
-
+.region-main img {
+    float: left;
+    overflow: auto;
+}
 
  /**
   * Footer layouter
   */
-
 .footer-column {
     width: 33%;
     float: left;

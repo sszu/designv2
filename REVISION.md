@@ -52,3 +52,11 @@ v2.0.1
 * Added base/base_kmom01.less
 * Added layout_kmom01.less
 * Updated kmom01_v2.less
+
+
+v2.0.2
+----------------------
+* Updated content/index.md and content/test.md
+* updated content/block/footer.md
+* Imported new external font Dosis
+* Added responsive footer

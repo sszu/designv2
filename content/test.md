@@ -8,13 +8,13 @@ views:
                 type: single
                 route: block/markdown
 
-    kursrepo:
+    byline:
         region: sidebar-right
         template: anax/v2/block/default
         data:
             meta:
                 type: single
-                route: block/om-kursrepo
+                route: block/byline
 ---
 Testsida - Markdown
 ======================

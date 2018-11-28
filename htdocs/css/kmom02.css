@@ -4769,16 +4769,25 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Base style to affect HTML elements on a general scale.
  */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v7/HhyaU5sn9vOmLzloC_A.ttf) format('truetype');
+}
 html {
   overflow-y: scroll;
-  background-color: pink;
+  background-color: #efd9c1;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #ddd;
-  font: 100.01%/1 serif;
+  background-color: #efd9c1;
+  font: 100.01%/1 "Dosis", sans-serif, serif;
+}
+main {
+  min-height: 300px;
 }
 h1 {
   font-size: 2em;
@@ -4812,6 +4821,7 @@ a:active {
 }
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 figure {
   display: inline-block;
@@ -4835,9 +4845,9 @@ figcaption {
  * General layout
  */
 .inner-wrap {
-  max-width: 800px;
+  box-sizing: border-box;
+  max-width: 900px;
   margin: 0 auto;
-  background-color: lightblue;
   overflow: auto;
 }
 .site-logo {
@@ -4848,6 +4858,7 @@ figcaption {
  */
 .inner-wrap-main {
   overflow: auto;
+  margin-top: 1em;
 }
 .region-main,
 .region-sidebar-left,
@@ -4875,6 +4886,10 @@ figcaption {
 .region-sidebar-right.has-sidebar-left {
   width: 20%;
 }
+.region-main img {
+  float: left;
+  overflow: auto;
+}
 /**
   * Footer layouter
   */
@@ -4892,9 +4907,6 @@ figcaption {
 /**
  * Header layout
  */
-.outer-wrap-header {
-  background: #9f9;
-}
 .outer-wrap-header::after {
   content: "";
   display: block;
@@ -4913,13 +4925,66 @@ figcaption {
   float: left;
   text-align: center;
 }
+.rm-desktop li a,
+.rm-desktop li a:hover {
+  background-color: #efd9c1;
+}
 /**
  * Footer layout
  */
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background-color: olive;
+  background-color: #808f85;
+  overflow: auto;
 }
+.outer-wrap-footer a,
+.inner-wrap-footer a {
+  color: #ddd;
+}
+/*.region-footer {
+    margin-top: 20px;
+    padding: 20px 0 5px;
+    background-color: #808f85;
+    color: white;
+}*/
+.footer-column-wrapper {
+  display: inline-block;
+  padding-bottom: 2em;
+  border-bottom: thin dotted white;
+}
+.site-footer {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.site-footer p {
+  font-weight: bold;
+  font-size: 80%;
+}
+/*.footer-column-wrapper .footer-column {
+    margin: 0 15px;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.site-footer {
+    text-align: center;
+    background-color: #808f85;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.site-footer h2 {
+    font-size: 80%;
+}*/
 /**
  * Layout for responsive style through media queries.
  */
@@ -4949,6 +5014,19 @@ figcaption {
 @media screen and (max-width: 700px) {
   .rm-desktop {
     display: none;
+  }
+  .footer-column-wrapper {
+    display: grid;
+    padding-bottom: 2em;
+    margin: 0 auto;
+    border-bottom: thin dotted white;
+  }
+  .footer-column {
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+    box-sizing: border-box;
+    text-align: center;
   }
 }
 /**
