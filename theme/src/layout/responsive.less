@@ -36,8 +36,36 @@
         display: none;
     }
 
+    .region-main {
+        width: 100%;
+        overflow: auto;
+        text-align: center;
+        margin-left: auto;
+
+        &.has-sidebar-left.has-sidebar-right {
+            width: 100%;
+        }
+    }
+
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        width: 100%;
+        text-align: center;
+        border-top: thin dotted #808f85;
+        border-bottom: thin dotted #808f85;
+    }
+
+    .region-sidebar-left,
+    .region-sidebar-right {
+        width: 100%;
+        text-align: center;
+        border-top: thin dotted #808f85;
+        border-bottom: thin dotted #808f85;
+    }
+
     .footer-column-wrapper {
         display: grid;
+        padding-top: 1em;
         padding-bottom: 2em;
         margin: 0 auto;
         border-bottom: thin dotted white;

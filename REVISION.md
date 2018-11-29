@@ -60,3 +60,11 @@ v2.0.2
 * updated content/block/footer.md
 * Imported new external font Dosis
 * Added responsive footer
+
+
+v2.0.3
+----------------------
+* Updated footer-col-1.md
+* Updated footer-col-2.md
+* Updated footer-col-3.md
+* Updated responsive.less 

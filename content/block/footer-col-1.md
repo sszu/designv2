@@ -1,7 +1,5 @@
-#### Markdown basics
+### Min me/redovisa repot
 
-Referencematerial för Markdown
+Ni kan hitta mitt repo på GitHub.
 
-* [Daring Fireball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
-* [PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/).
-* [PHP Markdown Concepts](https://michelf.ca/projects/php-markdown/concepts/).
+[<i class="fab fa-github fa-2x"></i>](https://github.com/sszu/designv2)

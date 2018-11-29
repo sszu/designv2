@@ -8,6 +8,7 @@
  */
 
 
+
 /**
  * General layout
  */
@@ -22,6 +23,8 @@
     display: none;
 }
 
+
+
 /**
  * Main and sidebars layout
  */
@@ -29,12 +32,6 @@
     //.clearfix();
     overflow: auto;
     margin-top: 1em;
-}
-
-.region-main,
-.region-sidebar-left,
-.region-sidebar-right {
-    overflow: auto;
 }
 
 .region-main {
@@ -63,14 +60,37 @@
     width: 20%;
 }
 
-.region-main img {
-    float: left;
-    overflow: auto;
+.next-previous {
+    margin: 1em;
 }
 
- /**
-  * Footer layouter
-  */
+
+
+/**
+* Byline layout
+*/
+.author-byline {
+    border: thin solid rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    figure {
+        margin-left: 1em;
+        float: right;
+    }
+
+    p {
+        margin: 1em;
+    }
+}
+
+
+
+/**
+* Footer layouter
+*/
 .footer-column {
     width: 33%;
     float: left;

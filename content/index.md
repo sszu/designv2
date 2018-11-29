@@ -1,15 +1,5 @@
 ---
 title: "Me-sida "
-
-views:
-    byline:
-        region: sidebar-left
-        template: anax/v2/block/default
-        data:
-            meta:
-                type: single
-                route: block/byline
-
 ---
 Min me-sida i kursen design
 =========================
