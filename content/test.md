@@ -8,13 +8,13 @@ views:
                 type: single
                 route: block/markdown
 
-    byline:
+    redovisa:
         region: sidebar-right
         template: anax/v2/block/default
         data:
             meta:
                 type: single
-                route: block/byline
+                route: block/om-redovisa
 ---
 Testsida - Markdown
 ======================

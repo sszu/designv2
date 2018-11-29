@@ -4872,7 +4872,6 @@ figcaption {
   box-sizing: border-box;
   max-width: 900px;
   margin: 0 auto;
-  overflow: auto;
 }
 .site-logo {
   display: none;

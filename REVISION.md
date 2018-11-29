@@ -67,4 +67,10 @@ v2.0.3
 * Updated footer-col-1.md
 * Updated footer-col-2.md
 * Updated footer-col-3.md
-* Updated responsive.less 
+* Updated responsive.less
+
+
+v2.0.4
+----------------------
+* Updated settings for default style
+* Added text content for Redovisning kmom02
