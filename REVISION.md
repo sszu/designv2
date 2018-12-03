@@ -74,3 +74,9 @@ v2.0.4
 ----------------------
 * Updated settings for default style
 * Added text content for Redovisning kmom02
+
+v3.0.0
+----------------------
+* Launched kmom03.less with grid based layout
+* Added kmom03 to header -> Redovisning dropdown menu.
+* Added vertical grid
