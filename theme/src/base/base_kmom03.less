@@ -1,0 +1,76 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+//@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    //font: 100.01%/1 "Dosis", sans-serif, @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+img {
+    max-width: 100%;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+
+
+a:link {
+    color: #808f85;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #808f85;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #808f85;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0.2em;
+
+    li {
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+    }
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.fb {
+    .fa-icon;
+    .fas;
+
+    &:before {
+        content: @fa-var-facebook;
+    }
+}

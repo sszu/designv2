@@ -104,32 +104,41 @@
     //margin-top: 1em;
 }
 
-.region-main {
-    #desinax-vgrid.column(18);
-    //width: 70%;
-    //margin-left: 10%;
-    //float: left;
-    //overflow: auto;
+.region-main { // default stance one column
+    #desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(3);
 
-    &.has-sidebar {
-        //margin-left: 0;
+    &.has-sidebar { // adapt if sidebar exist
+        #desinax-vgrid.push(0);
     }
 
-    &.has-sidebar-left.has-sidebar-right {
-        //width: 60%;
+    &.has-sidebar-right { // adapt if sidebar to the right, main column decrease by one
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+
+    &.has-sidebar-left.has-sidebar-right { // 3-col middle grid and position
+        #desinax-vgrid.column(@columns * 3 / 4 - 6);
+        #desinax-vgrid.push(1);
     }
 }
 
 .region-sidebar-left,
 .region-sidebar-right {
-    #desinax-vgrid.column(6);
-    //width: 30%;
-    //float: left;
+    #desinax-vgrid.column(@columns * 1 / 4); // 6 columns
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.push(1);
 }
 
 .region-sidebar-left.has-sidebar-right,
 .region-sidebar-right.has-sidebar-left {
-    //width: 20%;
+    #desinax-vgrid.column(@columns * 1 / 4 - 2); // reduce one by each side
+}
+
+.region-sidebar-right.has-sidebar-left,
+.has-sidebar-right.has-sidebar { // 3-col left and right grid position
+    #desinax-vgrid.push(1);
 }
 
 .next-previous {
