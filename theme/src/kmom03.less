@@ -4,8 +4,6 @@
 * This stylesheet is for the design course and kmom03 where we implement the use of grid-based layout.
 */
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
-
 /**
  * Import mixin.
  */
@@ -89,7 +87,7 @@
  */
 //@import "layout/layout.less";
 //@import "layout/layout_kmom02.less";
-@import "layout/responsive_kmom03.less";
+@import "layout/responsive.less";
 @import "layout/regions.less";     // To add style for ?regions
 
 
@@ -102,10 +100,9 @@
 @bgColorBody: lightblue; //#efd9c1;
 
 // Adapt the typographic grid to another style
-@fontFamilyHeadings: "Merriweather", @fontFamilyGaramond;
-@fontFamilyBody:    "Montserrat", @fontFamilyMyriadPro;
-@fontFamilyCode:    "Calibri", @fontFamilyCourier;
-@fontSizeH6: 1em;
+@fontFamilyHeadings: @fontFamilyGaramond;
+@fontFamilyBody:    @fontFamilyMyriadPro;
+@fontFamilyCode:   @fontFamilyCourier;
 
 // Magic number and base fontsize
 @magicNumber: 24px;

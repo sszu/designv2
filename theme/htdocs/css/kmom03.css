@@ -3,18 +3,6 @@
 *
 * This stylesheet is for the design course and kmom03 where we implement the use of grid-based layout.
 */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
-}
 /**
  * Import mixin.
  */
@@ -4627,7 +4615,7 @@ body {
   padding: 0;
   color: #333;
   background-color: lightblue;
-  font: 16px/1.5 "Montserrat", MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  font: 16px/1.5 MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 img {
   max-width: 100%;
@@ -4638,7 +4626,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Merriweather", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4708,8 +4696,8 @@ h5 + h6 {
   margin-top: 24px;
 }
 h6 {
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: 1.25em;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #eee;
 }
@@ -4762,7 +4750,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "Calibri", "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 code,
 samp {
@@ -5111,20 +5099,13 @@ figcaption {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-.region-main.has-sidebar-left.has-sidebar {
-  display: inline;
-  float: left;
-  width: 69.79166667%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-  margin-left: 4.6875%;
-}
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
   float: left;
   width: 48.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-left: 4.6875%;
 }
 .region-sidebar-left,
 .region-sidebar-right {
@@ -5141,9 +5122,13 @@ figcaption {
 .region-sidebar-right.has-sidebar-left {
   display: inline;
   float: left;
-  width: 23.95833333%;
+  width: 15.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.region-sidebar-right.has-sidebar-left,
+.has-sidebar-right.has-sidebar {
+  margin-left: 4.6875%;
 }
 /**
 * Byline layout
@@ -5199,117 +5184,65 @@ figcaption {
   }
 }
 /**
- * Navbar
+ * Havbar
  */
-@media screen and (max-width: 1200px) {
-  .region-header-col-1,
-  .region-header-col-3 {
-    display: inline;
-    float: left;
-    width: 11.45833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-header-col-2 {
-    display: inline;
-    float: left;
-    width: 73.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-}
 @media screen and (max-width: 960px) {
   .rm-desktop a {
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 800px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 15%;
+  }
+  .region-header-col-2 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
   .rm-desktop {
     display: none;
   }
-}
-/**
- * Body
- */
-@media screen and (max-width: 1200px) {
   .region-main {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    margin-left: auto;
   }
   .region-main.has-sidebar-left.has-sidebar-right {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-sidebar-left {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-main.has-sidebar-left.has-sidebar {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
+    width: 100%;
   }
   .region-sidebar-left.has-sidebar-right,
   .region-sidebar-right.has-sidebar-left {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
+    width: 100%;
+    text-align: center;
+    border-top: thin dotted #808f85;
+    border-bottom: thin dotted #808f85;
   }
-}
-@media screen and (max-width: 870px) {
-  .region-main.has-sidebar-right {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
+  .region-sidebar-left,
   .region-sidebar-right {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-right: 0.52083333%;
-    margin-left: 0.52083333%;
-  }
-}
-@media screen and (max-width: 650px) {
-  .region-main {
+    width: 100%;
     text-align: center;
+    border-top: thin dotted #808f85;
+    border-bottom: thin dotted #808f85;
   }
-  .region-main.has-sidebar-left.has-sidebar-right {
-    text-align: center;
+  .footer-column-wrapper {
+    display: grid;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin: 0 auto;
+    border-bottom: thin dotted white;
   }
-  .region-sidebar-right.has-sidebar-right.has-sidebar {
-    text-align: center;
-  }
-  .region-sidebar-left {
-    text-align: center;
-  }
-  .region-main.has-sidebar-left.has-sidebar {
-    text-align: center;
-  }
-  .region-sidebar-left.has-sidebar-right,
-  .region-sidebar-right.has-sidebar-left {
+  .footer-column {
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+    box-sizing: border-box;
     text-align: center;
   }
 }
-/**
-  * Footer
-  */
 /**
  * Show off the regions used in the website, to ease styling.
  */

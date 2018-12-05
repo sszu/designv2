@@ -1,4 +1,4 @@
-###### Teknisk webbdesign och användbarhet
+### Teknisk webbdesign och användbarhet
 
 Nyfiken på vad vi gör på kursen?
 
