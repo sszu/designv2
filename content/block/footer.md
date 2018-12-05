@@ -1,4 +1,5 @@
-#### The validating squads:
+The validating squads:
+
 [Unicorn][1] | [HTML][2] | [CSS][3]
 
 [1]: http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance "Unicorn"

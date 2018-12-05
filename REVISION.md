@@ -75,15 +75,31 @@ v2.0.4
 * Updated settings for default style
 * Added text content for Redovisning kmom02
 
+
 v3.0.0
 ----------------------
 * Launched kmom03.less with grid based layout
 * Added kmom03 to header -> Redovisning dropdown menu.
 * Added vertical grid
 
-v.3.0.1
+
+v3.0.1
 ----------------------
 * Added base/base_kmom03.less incl. activation of grid and default typography
 * Added typographic-grid
 * Added hgrid horizontal grid debug tool
 * Updated grid-layout for 1-col, 2-col and 3-col layout
+
+
+v3.0.2
+----------------------
+* Added heading font Merriweather
+* Added body font Montserrat
+* Added responsive_kmom03.less
+* Added responsive header
+* Added responsive 1-col, 2-col and 3-col content
+
+v3.0.2-1
+----------------------
+* Recovering from last accident
+* Re-adding previous Revision
