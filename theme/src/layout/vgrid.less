@@ -116,9 +116,18 @@
         #desinax-vgrid.column(@columns * 3 / 4 - 1);
     }
 
+    //&.has-sidebar-right.has-sidebar { // adapt if sidebar to the right, //main column decrease by one
+    //    #desinax-vgrid.column(@columns * 3 / 4 - 2);
+    //    //#desinax-vgrid.push(1);
+    //} DO NOT USE
+
+    &.has-sidebar-left.has-sidebar { // adapt if sidebar to the right, main column decrease by one
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+        #desinax-vgrid.push(1);
+    }
+
     &.has-sidebar-left.has-sidebar-right { // 3-col middle grid and position
         #desinax-vgrid.column(@columns * 3 / 4 - 6);
-        #desinax-vgrid.push(1);
     }
 }
 
@@ -133,13 +142,10 @@
 
 .region-sidebar-left.has-sidebar-right,
 .region-sidebar-right.has-sidebar-left {
-    #desinax-vgrid.column(@columns * 1 / 4 - 2); // reduce one by each side
+    #desinax-vgrid.column(@columns * 1 / 4);
 }
 
-.region-sidebar-right.has-sidebar-left,
-.has-sidebar-right.has-sidebar { // 3-col left and right grid position
-    #desinax-vgrid.push(1);
-}
+
 
 .next-previous {
     //margin: 1em;
