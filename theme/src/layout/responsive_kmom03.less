@@ -35,6 +35,10 @@
     .rm-desktop {
         display: none;
     }
+
+    .region-breadcrumb {
+        display: none;
+    }
 }
 
 
@@ -85,6 +89,10 @@
         &.has-sidebar-left.has-sidebar-right {
             text-align: center;
         }
+
+        &.has-sidebar-left.has-sidebar {
+            text-align: center;
+        }
     }
 
     .region-sidebar-right.has-sidebar-right.has-sidebar {
@@ -95,15 +103,30 @@
         text-align: center;
     }
 
-    .region-main.has-sidebar-left.has-sidebar {
-        text-align: center;
-    }
-
     .region-sidebar-left.has-sidebar-right,
     .region-sidebar-right.has-sidebar-left {
         text-align: center;//#desinax-vgrid.column(@columns);
     }
 }
- /**
-  * Footer
-  */
+
+
+
+/**
+ * Footer
+ */
+@media screen and (max-width: 690px) {
+    .footer-column-wrapper {
+        display: grid;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        border-bottom: thin dotted white;
+    }
+
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+        padding-left: 5em;
+        padding-right: 5em;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}

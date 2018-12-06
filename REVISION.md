@@ -93,13 +93,24 @@ v3.0.1
 
 v3.0.2
 ----------------------
-* Added heading font Merriweather
+* Added header font Merriweather
 * Added body font Montserrat
 * Added responsive_kmom03.less
 * Added responsive header
 * Added responsive 1-col, 2-col and 3-col content
 
+
 v3.0.2-1
 ----------------------
 * Recovering from last accident
 * Re-adding previous Revision
+
+
+v3.0.3
+----------------------
+* Added responsive footer
+* Added responsive breadcrumb field
+* Updated footer3 heading
+* Uploaded to studentserver - tested.
+* Activated kmom03.min.css as default stylesheet
+* Added text content for Redovisning kmom03
