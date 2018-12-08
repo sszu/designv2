@@ -39,6 +39,30 @@ return [
             ],
         ],
         [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Analys av webbplatser",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Fargschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Analys av webbplatsers färgval.",
+                    ],
+                    /*[
+                        "text" => "Användbarhetsanalys",
+                        "url" => "rapport/05_laddningstid.md",
+                        "title" => "Analys av webbplatsers laddningstid och användbarhet.",
+                    ],
+                    [
+                        "text" => "Designanalys",
+                        "url" => "rapport/06_designprincip.md",
+                        "title" => "Analys av webbplatsers designprinciper.",
+                    ],*/
+                ],
+            ],
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",

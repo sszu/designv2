@@ -1,0 +1,40 @@
+/**
+ * Layout using vgrid
+ */
+
+
+
+/**
+ * Header layout
+ */
+.outer-wrap-header {
+    //background: #9f9;
+    //.clearfix();
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.column(5);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(14);
+    text-align: center;
+}
+
+.region-flash {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+.rm-desktop li a,
+.rm-desktop li a:hover {
+    background-color: #efd9c1;
+}

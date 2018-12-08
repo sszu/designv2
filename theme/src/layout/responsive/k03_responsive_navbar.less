@@ -1,0 +1,36 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+
+
+/**
+ * Navbar
+ */
+@media screen and (max-width: 1200px) {
+    .region-header-col-1,
+    .region-header-col-3 {
+        #desinax-vgrid.column(3);
+    }
+
+    .region-header-col-2 {
+        #desinax-vgrid.column(18);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .rm-desktop a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .rm-desktop {
+        display: none;
+    }
+
+    .region-breadcrumb {
+        display: none;
+    }
+}

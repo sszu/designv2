@@ -1,0 +1,71 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+
+
+/**
+ * Body
+ */
+@media screen and (max-width: 1200px) {
+    .region-main { // default stance one column
+        #desinax-vgrid.column(@columns);
+        //#desinax-vgrid.push(0);
+
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns); // 6 columns
+    }
+
+    .region-main.has-sidebar-left.has-sidebar {
+        #desinax-vgrid.column(@columns);
+        //#desinax-vgrid.push(1);
+    }
+
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .region-main.has-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .region-main {
+        text-align: center;
+
+        &.has-sidebar-left.has-sidebar-right {
+            text-align: center;
+        }
+
+        &.has-sidebar-left.has-sidebar {
+            text-align: center;
+        }
+    }
+
+    .region-sidebar-right.has-sidebar-right.has-sidebar {
+        text-align: center;
+    }
+
+    .region-sidebar-left {
+        text-align: center;
+    }
+
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        text-align: center;//#desinax-vgrid.column(@columns);
+    }
+}

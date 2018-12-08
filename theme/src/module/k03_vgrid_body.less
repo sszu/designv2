@@ -1,0 +1,49 @@
+/**
+ * Layout using vgrid
+ */
+
+
+
+/**
+* Main and sidebars layout
+*/
+.region-main { // default stance one column
+    #desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(3);
+
+    &.has-sidebar { // adapt if sidebar exist
+        #desinax-vgrid.push(0);
+    }
+
+    &.has-sidebar-right { // adapt if sidebar to the right, main column decrease by one
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+
+    &.has-sidebar-left.has-sidebar { // adapt if sidebar to the right, main column decrease by one
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+        #desinax-vgrid.push(1);
+    }
+
+    &.has-sidebar-left.has-sidebar-right { // 3-col middle grid and position
+        #desinax-vgrid.column(@columns * 3 / 4 - 6);
+        #desinax-vgrid.push(1);
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(@columns * 1 / 4); // 6 columns
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.push(1);
+
+    &.has-sidebar-left.has-sidebar-right.has-sidebar {
+        #desinax-vgrid.push(1);
+    }
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    #desinax-vgrid.column(@columns * 1 / 4 - 1);
+}

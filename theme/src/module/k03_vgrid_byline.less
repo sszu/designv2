@@ -1,0 +1,23 @@
+/**
+ * Layout using vgrid
+ */
+
+
+
+/**
+* Byline layout
+*/
+.author-byline {
+    border: thin solid rgba(0, 0, 0, 0.8);
+    #desinax-vgrid.column(@columns);
+
+    figure {
+        #desinax-vgrid.column(@columns * 1 / 6);
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    p {
+        #desinax-vgrid.column(@columns * 3 / 4);
+    }
+}

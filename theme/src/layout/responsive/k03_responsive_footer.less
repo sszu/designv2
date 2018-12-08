@@ -1,0 +1,25 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+
+
+/**
+ * Footer
+ */
+@media screen and (max-width: 690px) {
+    .footer-column-wrapper {
+        display: grid;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        border-bottom: thin dotted white;
+    }
+
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+        padding-left: 5em;
+        padding-right: 5em;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}

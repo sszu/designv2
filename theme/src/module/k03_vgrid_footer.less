@@ -1,0 +1,37 @@
+/**
+ * Layout using vgrid
+ */
+
+
+
+/**
+ * Footer layout
+ */
+.footer-column {
+    #desinax-vgrid.column(@columns / 3 - 1);
+    #desinax-vgrid.push(1);
+
+    h6 {
+        color: #ddd;
+    }
+}
+
+.site-footer {
+    #desinax-vgrid.column(@columns);
+    text-align: center;
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+    background-color: #808f85;
+
+    a {
+        color: #ddd;
+    }
+}
+
+.footer-column-wrapper {
+    display: flex;
+    border-bottom: thin dotted #ddd;
+    text-align: center;
+}

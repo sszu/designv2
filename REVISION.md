@@ -114,3 +114,19 @@ v3.0.3
 * Uploaded to studentserver - tested.
 * Activated kmom03.min.css as default stylesheet
 * Added text content for Redovisning kmom03
+
+
+v4.0.0
+----------------------
+* Added kmom03_v2.less and splitted vgrid.less and responsive_kmom03.less into modules:
+    + Added module/k03_vgrid_main.less
+    + Added module/k03_vgrid_header.less
+    + Added module/k03_vgrid_body.less
+    + Added module/k03_vgrid_byline.less
+    + Added module/k03_vgrid_footer.less
+    + Added layout/responsive/k03_responsive_main.less
+    + Added layout/responsive/k03_responsive_navbar.less
+    + Added layout/responsive/k03_responsive_body.less
+    + Added layout/responsive/k03_responsive_footer.less
+* Added Redovisning/kmom04 to header navbar and burger navbar - content not ready
+* Added Rapport to header navbar and burger navbar - content not ready
