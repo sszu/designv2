@@ -130,3 +130,12 @@ v4.0.0
     + Added layout/responsive/k03_responsive_footer.less
 * Added Redovisning/kmom04 to header navbar and burger navbar - content not ready
 * Added Rapport to header navbar and burger navbar - content not ready
+
+
+v4.0.1
+----------------------
+* Updated link colour to increase contrast
+* Added Färganalys report
+* Added htdocs/img/lh-website.png
+* Added htdocs/img/ba-website.png
+* Added htdocs/img/kl-website.png

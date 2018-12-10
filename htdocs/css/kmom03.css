@@ -4917,18 +4917,18 @@ hr::after {
   background-color: #fff;
 }
 a:link {
-  color: #808f85;
+  color: #49634c;
   font-weight: bold;
 }
 a:visited {
-  color: #808f85;
+  color: #49634c;
 }
 a:hover {
   color: white;
   text-decoration: underline;
 }
 a:active {
-  color: #808f85;
+  color: #49634c;
 }
 ul {
   list-style-type: none;

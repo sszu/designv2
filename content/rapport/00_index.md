@@ -1,6 +1,7 @@
 ---
 ---
-Redovisningstexter
+Introduktion
 =========================
 
-Här dokumenteras min utveckling inom olika kursmoment i kursen design.
+Det finns mycket att utforska för olika webbplatser och vilka känslor dem signalerar för besökare.
+Här dokumenteras min utvärdering av webbplatser och deras val av design.
